@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Inspiradoras</title>
+    <!-- Link para o Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.4/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Link para o Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link para as fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Raleway:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .text-gradient {
+            background: linear-gradient(to right, #FDEB71, #FDC830);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-900 text-gray-200 font-Raleway">
+
+    <!-- Cabeçalho (Header) -->
+    <header class="bg-gradient-to-r from-purple-600 via-purple-700 to-black text-white p-6 w-full shadow-lg flex items-center justify-between">
+        <a href="#" class="text-white hover:text-gray-300 transition-colors duration-300">
+            <i class="fas fa-home fa-lg"></i>
+        <h1 class="text-2xl font-bold text-gray-100 ml-4">Frases Inspiradoras</h1>
+         <nav class="flex space-x-4">
+                <a href="#" class="text-white hover:text-gray-300 transition-colors duration-300">Home</a>
+                <a href="#about" class="text-white hover:text-gray-300 transition-colors duration-300">Sobre</a>
+                <a href="#contact" class="text-white hover:text-gray-300 transition-colors duration-300">Contato</a>
+        </nav>
+        </a>
+      
+    </header>
+
+    <!-- Seção Hero com Imagem de Fundo -->
+    <section class="bg-gray-800 py-24 px-4 text-center text-gray-100 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?nature,forest');">
+        <div class="bg-gray-900 bg-opacity-70 p-8 rounded-lg shadow-xl mx-auto max-w-2xl">
+            <p class="text-4xl font-Playfair font-bold mb-4 text-gradient">Bem-vindo à nossa página!</p>
+            <p class="text-xl font-Roboto mb-4">Estamos felizes em tê-lo aqui. Explore nosso conteúdo para encontrar diversas frases e fontes para suas necessidades.</p>
+            <p class="text-lg font-Lora italic mb-4">"A vida é uma aventura ousada ou não é nada." – Helen Keller</p>
+            <p class="text-lg font-Lora italic">"Acredite em você e tudo será possível." – Desconhecido</p>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal (Main) -->
+    <main class="flex flex-col items-center bg-gray-900 py-12 flex-grow px-4 sm:px-8 md:px-12">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-Playfair text-gray-100 mb-6">Aqui você encontra frases e fontes de tamanhos e estilos diferentes</h2>
+            <p class="text-lg font-Roboto text-gray-300 mb-8">Escolha a fonte e o estilo que mais se adequam ao seu projeto.</p>
+        </div>
+        <div class="space-y-6 mb-12 text-center">
+            <h2 class="text-4xl font-Playfair text-red-500 mb-2">"A criatividade é a inteligência se divertindo." – Albert Einstein</h2>
+            <h3 class="text-3xl font-Roboto text-green-500 mb-2">"O único limite para a realização de amanhã é a dúvida de hoje." – Franklin D. Roosevelt</h3>
+            <h4 class="text-2xl font-Roboto text-blue-500 mb-2">"A vida é feita de escolhas, e cada escolha pode mudar o seu destino." – Desconhecido</h4>
+            <h5 class="text-xl font-Roboto text-purple-500">"Se você pode sonhar, você pode realizar." – Walt Disney</h5>
+        </div>
+    </main>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="bg-black text-white p-6 w-full text-center flex flex-col items-center gap-4 mt-auto shadow-inner">
+        <div class="flex gap-6 mb-4">
+            <a href="https://www.instagram.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="mailto:email@example.com" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+        </div>
+        <p class="text-sm text-gray-300">© 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

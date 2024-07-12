@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Raleway:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen bg-gray-900 text-gray-200">
+
+    <!-- Cabeçalho (Header) -->
+    <header class="bg-gray-900 text-white p-4 w-full shadow-lg flex items-center justify-between">
+        <a href="#" class="text-white hover:text-gray-400 flex items-center space-x-2">
+            <i class="fas fa-home fa-lg"></i>
+            <span class="text-xl">Frases Inspiradoras</span>
+        </a>
+        <nav class="flex space-x-4">
+            <a href="#" class="text-white hover:text-gray-400 transition-colors duration-300">Home</a>
+            <a href="#about" class="text-white hover:text-gray-400 transition-colors duration-300">Sobre</a>
+            <a href="#contact" class="text-white hover:text-gray-400 transition-colors duration-300">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Hero com Imagem de Fundo -->
+    <section class="bg-gray-800 py-24 px-4 text-center text-gray-100 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?nature,forest');">
+        <div class="bg-gray-900 bg-opacity-70 p-8 rounded-lg shadow-xl mx-auto max-w-2xl">
+            <p class="text-4xl font-playfair font-bold mb-4 text-gradient">Bem-vindo à nossa página!</p>
+            <p class="text-xl font-roboto mb-4">Estamos felizes em tê-lo aqui. Explore nosso conteúdo para encontrar diversas frases e fontes para suas necessidades.</p>
+            <p class="text-lg font-lora italic mb-4">"A vida é uma aventura ousada ou não é nada." – Helen Keller</p>
+            <p class="text-lg font-lora italic">"Acredite em você e tudo será possível." – Desconhecido</p>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal (Main) -->
+    <main class="flex flex-col items-center bg-gray-900 py-12 flex-grow px-4 sm:px-8 md:px-12">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-playfair text-gray-100 mb-6">Aqui você encontra frases e fontes de tamanhos e estilos diferentes</h3>
+            <p class="text-lg font-roboto text-gray-300 mb-8">Escolha a fonte e o estilo que mais se adequam ao seu projeto.</p>
+        </div>
+        <div class="text-center mb-8">
+            <h2 class="text-4xl font-playfair text-red-500 mb-4">Texto Grande e Vermelho</h2>
+            <h3 class="text-3xl font-roboto text-green-500 mb-4">Texto Médio e Verde</h3>
+            <h4 class="text-2xl font-lora text-blue-500 mb-4">Texto Pequeno e Azul</h4>
+            <h5 class="text-xl font-raleway text-purple-500">Texto Menor e Roxo</h5>
+        </div>
+    </main>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="bg-gray-900 text-white p-6 w-full text-center flex flex-col items-center gap-4 mt-auto">
+        <div class="flex gap-6 mb-4">
+            <a href="https://www.instagram.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="mailto:email@example.com" class="text-white hover:text-gray-400 transition-colors duration-300">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+        </div>
+        <p class="text-sm text-gray-300">© 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
