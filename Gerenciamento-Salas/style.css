@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid green; /* Linha verde separadora */
+    padding-bottom: 10px; /* Espaçamento entre o texto e a linha */
+}
+
+header h2 {
+    margin: 0;
+    color: #333; /* Cor do texto do título */
+}
+
+hr {
+    border: 1px solid #ccc; 
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    width: 250px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar .logout {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Ajuste do tamanho e estilo dos cards */
+.card {
+    background-color: #f0f0f0;
+    padding: 40px; /* Aumenta o espaço interno do card */
+    text-align: center;
+    width: calc(25% - 20px);
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    position: relative;
+    border: none; /* Remove a borda dos cards */
+}
+
+.card h3 {
+    color: green; /* Cor do texto do título dos cards */
+    margin: 0; /* Remove margem extra */
+}
+
+footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav li {
+    margin: 0 10px;
+}
